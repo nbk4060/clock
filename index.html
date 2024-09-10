@@ -79,7 +79,29 @@
       }
    
 
-        .hand {
+        .needle {
+            width: 40%;
+            height: 2px;
+            background: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform-origin: 0% 50%;
+            transform: rotate(90deg);
+            transition: transform 0.5s ease;
+        }
+        .min-needle {
+            width: 20%;
+            height: 2px;
+            background: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform-origin: 0% 50%;
+            transform: rotate(90deg);
+            transition: transform 0.5s ease;
+        }
+        .second-needle {
             width: 50%;
             height: 2px;
             background: black;
@@ -90,11 +112,7 @@
             transform: rotate(90deg);
             transition: transform 0.5s ease;
         }
-
-        .second-hand {
-            height: 1px;
-            background: red;
-        }
+       
     </style>
   </head>
   <body>
